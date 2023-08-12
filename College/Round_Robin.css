@@ -1,0 +1,66 @@
+//Diseño pñagina para la presentación del round robin
+h1{
+text-align: center;
+text-decoration: underline;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:rgb(38, 109, 109); 
+}
+
+body{
+background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+}
+
+table {
+	border-collapse: collapse;
+	margin:0 auto; 
+	font-weight: bold;
+	font-family: 'Times New Roman'; 
+	color:rgb(0, 0, 0); 
+}
+
+table, th, td {
+	border: 2px solid rgb(0, 0, 0);
+	text-align: right;
+	padding: 4px;
+}
+
+.tablas{
+	display: flex; 
+	align-items: center;
+	gap:30px; 
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+button{
+    font-weight: bold;
+    padding: 0.5rem 2.5rem;
+    border-radius: 10rem;
+    cursor:pointer;
+    transition: 0.3s;
+	  background-color: transparent;
+    margin-top: 1.5rem;
+	  margin: 0px 5px; 
+
+}
+
+button:hover{
+    background-color: rgb(143, 223, 205);
+    color: black;
+    transform: translateY(-2px);
+}
+
+input{
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 3px solid rgb(38, 109, 109); 
+    border-radius: 7px;
+    font-size: 1.5rem;
+    padding: 0 20px;
+    background: none;
+	  max-width: 300px;
+	  margin: 5px 5px; 
+}
